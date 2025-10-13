@@ -200,7 +200,7 @@ function animateSlides(oldIndex,newIndex){
 function checkPin(){
   const inputs=document.querySelectorAll('#slide1 input');
   const pin=[...inputs].map(i=>i.value).join('');
-  if(pin==="2002"){
+  if(pin==="2003"){
     animateSlides(1,2);
     document.getElementById('errorMsg').innerText="";
   } else {
@@ -238,3 +238,4 @@ animate(); window.addEventListener("resize",()=>{canvas.width=window.innerWidth;
 
 </body>
 </html>
+
